@@ -1,0 +1,16 @@
+
+
+.part1{
+      padding:30px;
+      margin: 20px;
+      text-align: justify;      
+}
+.part1-h3{
+      text-transform: capitalize;
+      margin-bottom:40px;
+      font-weight:700;
+}
+.part1 p{
+       padding: 5px;
+       line-height: 1.8;
+}

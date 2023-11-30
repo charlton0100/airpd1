@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Moving Target</title>
+  <style>
+    .target {
+      width: 50px;
+      height: 50px;
+      background-color: red;
+      border-radius: 50%;
+      position: absolute;
+      text-align:center;
+      animation: moveTarget 20s linear infinite;
+    }
+    @keyframes moveTarget {
+      0% { top: 50px; left: 50px; }
+      25% { top: 50px; left: calc(100vw - 100px); }
+      50% { top: calc(100vh - 100px); left: calc(100vw - 100px); }
+      75% { top: calc(100vh - 100px); left: 50px; }
+      100% { top: 50px; left: 50px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="target"><p style="color:white;"><b>AIRPD</b></p></div>
+
+</body>
+</html>
