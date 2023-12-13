@@ -52,7 +52,8 @@ img {vertical-align: middle;}
   text-align: Justify;
   background-color: white;
   margin-top: 2px;
-  margin-left:70px;
+  margin-left:60px;
+  margin-right:10px;
   border: 2px solid blue;
   border-radius: 5px;
   text-justify: inter-word;
