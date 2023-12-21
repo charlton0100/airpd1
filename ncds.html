@@ -44,6 +44,22 @@ ul.points {
       0% { left: 100%; }
       100% { left: -100%; }
     }
+
+ .video-container {
+      position: relative;
+      padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+      height: 0;
+      overflow: hidden;
+    }
+    
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
 </style
 
 </head>
@@ -128,11 +144,9 @@ ul.points {
       <br>
      
       <p><a href="#"> More information </a> </p>
-<video width="400" controls class="hpvideo">
-  <source src="hbpvideo.mp4" type="video/mp4">
-  <source src="hbpvideo.ogg" type="video/ogg">
-  Your browser does not support HTML video.
-</video>
+ <div class="video-container">
+  <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+ </div>
 <br>
       
    </div>
